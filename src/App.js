@@ -44,19 +44,19 @@ function App() {
       </div>
 
       <div id="education" className="section">
-        <Contact></Contact>
+        <Education></Education>
       </div>
 
       <div id="experience" className="section">
-        <Contact></Contact>
+        <Experience></Experience>
       </div>
 
       <div id="skills" className="section">
-        <Contact></Contact>
+        <Skills></Skills>
       </div>
 
       <div id="projects" className="section">
-        <Contact></Contact>
+        <Projects></Projects>
       </div>
     </div>
   );

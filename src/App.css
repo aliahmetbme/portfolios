@@ -52,6 +52,7 @@ p {
 }
 
 body, html {
+  flex: 1;
   margin: 0;
   scroll-behavior: smooth;
   font-family: Arial, sans-serif;
@@ -81,13 +82,15 @@ h1 {
   font-family: 'Arial', sans-serif;
   margin: auto;
   align-self: center;
+  font-weight: bold;
 
 }
 
 p {
-  color: #666;
+  color: black;
   font-family: 'Arial', sans-serif;
   align-self: center;
+  font-size: large;
 }
 
 
@@ -165,19 +168,29 @@ footer {
 }
 
 .box {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .button {
-  background: #DADADA;
+  border-color: white;
+  border-bottom-color: white;
+  background: white;
   padding: 10px;
   margin: 5px;
   text-align: center;
   border-radius: 50%;
 }
 
+.cvbutton {
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
 .icon {
-  font-size: 50px;
+  font-size: 40px;
 }
